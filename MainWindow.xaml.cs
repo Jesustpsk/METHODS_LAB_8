@@ -27,16 +27,20 @@ namespace METHODS_LAB_8
         private static double[] ytest = {9.10, 8.60, 8.10, 7.20, 6.60, 6.10, 5.10};
         public MainWindow()
         {
+            //для теста
+            //x = xtest;
+            //y = ytest;
+            //-------
             InitializeComponent();
             
             TBInput.Text = "x: [ ";
-            foreach (var _ in xtest)
+            foreach (var _ in x)
             {
                 TBInput.Text += _ + "; ";
             }
 
             TBInput.Text += "].\ny: [ ";
-            foreach (var _ in ytest)
+            foreach (var _ in y)
             {
                 TBInput.Text += _ + "; ";
             }
@@ -46,7 +50,7 @@ namespace METHODS_LAB_8
         
         private void BStart_OnClick(object sender, RoutedEventArgs e)
         {
-            LeastSquareMethod.Render(xtest,ytest,WpfPlot);
+            LeastSquareMethod.Render(x,y,WpfPlot);
         }
     }
 }
