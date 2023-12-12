@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "yF5k5OKVxa88bitV+1ViJHOtTlqcEoh9I8E2jTbf0ExFUb7TqojwntR6jRp+RDBC57WW+oJ2QTaew6U481BAgA==",
+  "success": true,
+  "projectFilePath": "D:\\Учеба\\Вычислительные методы\\METHODS_LAB_8\\METHODS_LAB_8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmkuz\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\scottplot\\4.1.69\\scottplot.4.1.69.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\scottplot.wpf\\4.1.69\\scottplot.wpf.4.1.69.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\dmkuz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

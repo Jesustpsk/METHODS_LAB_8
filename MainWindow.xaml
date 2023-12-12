@@ -1,0 +1,51 @@
+﻿<Window x:Class="METHODS_LAB_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:METHODS_LAB_8"
+        xmlns:scottplot="clr-namespace:ScottPlot;assembly=ScottPlot.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="0.05*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        
+        <scottplot:WpfPlot Grid.Row="1" Grid.Column="1" Height="350" Name="WpfPlot"></scottplot:WpfPlot>
+        
+        <ToolBarTray Grid.Row="1" Grid.Column="2" Width="200" Orientation="Vertical">
+            <ToolBar>
+                <StackPanel Orientation="Vertical" Margin="10 0 0 0" Width="180"> 
+                    <Label Content="Исходные данные:"></Label>
+                    <TextBox IsReadOnly="True" Name="TBInput" TextWrapping="Wrap" Width="180"></TextBox>
+                    <Button Name="BStart" Content="Рассчитать" Margin="0 10 0 0"
+                            Click="BStart_OnClick"></Button>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Margin="10 0 0 0" Width="180">
+                    <Canvas Width="10" Height="10" Background="Red"/>
+                    <Label Content=" - Линейная функция:"></Label>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Margin="10 0 0 0" Width="180">
+                    <Canvas Width="10" Height="10" Background="Green"/>
+                    <Label Content=" - Степенная функция:"></Label>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Margin="10 0 0 0" Width="180">
+                    <Canvas Width="10" Height="10" Background="Blue"/>
+                    <Label Content=" - Показательная функция:"></Label>
+                </StackPanel>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>
