@@ -23,8 +23,8 @@ namespace METHODS_LAB_8
         private static double[] x = {61.10, 60.80, 60.18, 59.20, 58.19, 55.29, 49.10};
         private static double[] y = {49.10, 48.60, 50.10, 52.20, 53.60, 58.10, 69.10};
         
-        private static double[] xtest = {5.10, 4.80, 4.18, 3.20, 3.19, 2.29, 2.10};
-        private static double[] ytest = {9.10, 8.60, 8.10, 7.20, 6.60, 6.10, 5.10};
+        private static double[] xtest = { 1, 2, 3, 4, 5, 6 };
+        private static double[] ytest = { 2.1, 7.8, 16.5, 33.2, 49.7, 82.5 };
         public MainWindow()
         {
             //для теста
